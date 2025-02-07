@@ -46,6 +46,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  shared_preferences: ^2.1.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,9 +60,16 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/json/experiments.json
+    - assets/json/marathi-experiments.json
+    - assets/json/news.json
+    - assets/json/marathi-news.json
+    - assets/json/science-story.json
+    - assets/json/marathi-science-story.json
+    - assets/experiments-image/
+    - assets/news-image/
+    - assets/science-story-image/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
